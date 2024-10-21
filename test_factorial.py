@@ -15,6 +15,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(factorial(5), 120)
         self.assertEqual(factorial(3), 6)
 
+# below the negative number number will raise an error since the negative for the factorial is not defined.
     def test_factorial_of_negative_number(self):
         with self.assertRaises(ValueError):
             factorial(-5)
