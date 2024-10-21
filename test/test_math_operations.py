@@ -10,3 +10,5 @@ def test_multiply_3_by_3():
 
 def test_multiply_4_by_4():
     assert 4 * 4 == 16
+def test_multiply_-5_by_2():
+    assert -5 * 2 == -10
