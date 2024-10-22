@@ -11,6 +11,6 @@ def test_fibonacci_recursive():
         assert result == expected_values[i], f"Test failed for n={i}: expected {expected_values[i]}, got {result}"
         print(f"Fibonacci({i}) = {result} (Test passed)")
 
-# Run the tests
+# Runing our tests
 if __name__ == "__main__":
     test_fibonacci_recursive()
