@@ -39,6 +39,7 @@ def factorial(n):
         result *= i
     return result
 
+
 # Example usage: Calculate the factorial of 5.
 print(factorial(5))  # Output: 120
 print(factorial(0))  # Output: 1
@@ -47,4 +48,5 @@ print(factorial(3)) # Output: 6
 print(factorial(2)) #output: 2
 print(factorial(4)) #output: 24
 print(factorial(1)) #output: 1
+# print(factorial(1000))
 

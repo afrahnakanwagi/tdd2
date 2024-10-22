@@ -1,5 +1,4 @@
-# test_factorial.py
-
+# testing our factorial function.
 import unittest
 from factorial import factorial
 
