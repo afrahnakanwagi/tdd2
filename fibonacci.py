@@ -1,4 +1,4 @@
-# pair: Afrah & Aisha
+#pair: Afrah & Aisha
 def fibonacci_recursive(n):
     if n == 0:
         return 0
@@ -6,6 +6,3 @@ def fibonacci_recursive(n):
         return 1
     else:
         return fibonacci_recursive(n - 1) + fibonacci_recursive(n - 2)
-
-
-
